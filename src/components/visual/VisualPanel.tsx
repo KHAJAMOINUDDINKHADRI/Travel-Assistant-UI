@@ -8,7 +8,7 @@ const VisualPanel: React.FC = () => {
 
   return (
     <div className="h-full flex flex-col">
-      <div className="visual-header py-4 px-6 bg-white border-b border-gray-200 shadow-sm  flex flex-col items-center">
+      <div className="visual-header py-4 px-6 bg-white border-b border-gray-200 shadow-sm">
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-semibold text-gray-800">Recommended Activities</h2>
           {isConfirmed && (
